@@ -1,0 +1,152 @@
+
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 1;
+  }
+  /* Add a hover effect if you want */
+  .fas:hover {
+    opacity: 1;
+  }
+  body {
+    background: #42455a;
+  }
+  /* Set a specific color for each brand */
+  
+  /* linkedin */
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+  }
+  
+  /* github */
+  .fa-github {
+    background: #050505;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+  }
+  
+  /* Email */
+  .fa-envelope {
+    background: #949496;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+  }
+  .fa:active {
+    transform: translateY(3px);
+  }
+  
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #555;
+  }
+/* NavBar CSS */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: right;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 6%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  /* Style the current/active link */
+.navbar a.active {
+    background-color: #555;
+    width: 15%;
+    float: left;
+  }
+  .fa-home {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    width: 28%;
+  }
+  .fa-file-alt {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    width: 17%;
+  }
+  /* Main Body */
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  /* Finish implementation Later on */
+  .dark-mode .navbar{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+  }
+  section h1 {
+    font-size: 3rem;
+    margin: 20px;
+  }
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section .text-container {
+    display: flex;
+  }
+  section .text-container .text-box {
+    margin: 20px;
+    padding: 20px;
+    background: #00c2cb;
+  }
+  #test{
+    animation-duration: 3s;
+    animation-name: fade-left;
+  }
+  
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
