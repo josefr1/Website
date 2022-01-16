@@ -83,7 +83,7 @@
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-    background-color: #000;
+    background-color: rgb(230, 22, 22);
   }
   /* Style the current/active link */
 .navbar a.active {
@@ -134,10 +134,7 @@
     padding: 20px;
     background: #00c2cb;
   }
-  #test{
-    animation-duration: 3s;
-    animation-name: fade-left;
-  }
+
   
   @keyframes fade-left {
     0% {
@@ -148,5 +145,29 @@
       transform: translateX(0);
       opacity: 1;
     }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  section .text-container {
+    display: flex;
+  }
+  section .text-container .text-box {
+    margin: 20px;
+    padding: 20px;
+    background: #00c2cb;
+  }
+  section .text-container .text-box h3 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
   }
   
