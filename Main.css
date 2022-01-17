@@ -1,173 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
 
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 1;
-  }
-  /* Add a hover effect if you want */
-  .fas:hover {
-    opacity: 1;
-  }
-  body {
-    background: #42455a;
-  }
-  /* Set a specific color for each brand */
-  
-  /* linkedin */
-  .fa-linkedin {
-    background: #3B5998;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    box-shadow: 0 4px rgb(255, 255, 255);
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-  }
-  
-  /* github */
-  .fa-github {
-    background: #050505;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    box-shadow: 0 4px rgb(255, 255, 255);
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-  }
-  
-  /* Email */
-  .fa-envelope {
-    background: #949496;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
-    box-shadow: 0 4px rgb(255, 255, 255);
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-  }
-  .fa:active {
-    transform: translateY(3px);
-  }
-  
-  .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    text-align: center;
-    background-color: #555;
-  }
-/* NavBar CSS */
-.navbar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-  }
-  
-  /* Navigation links */
-  .navbar a {
-    float: right;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    width: 6%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
-  }
-  
-  /* Add a background color on mouse-over */
-  .navbar a:hover {
-    background-color: rgb(230, 22, 22);
-  }
-  /* Style the current/active link */
-.navbar a.active {
-    background-color: #555;
-    width: 15%;
-    float: left;
-  }
-  .fa-home {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 2px;
-    width: 28%;
-  }
-  .fa-file-alt {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    padding: 2px;
-    width: 17%;
-  }
-  /* Main Body */
-  .dark-mode {
-    background-color: black;
-    color: white;
-  }
-  /* Finish implementation Later on */
-  .dark-mode .navbar{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    overflow: auto;
-  }
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #f34a07;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #00c2cb;
+}
+header nav a {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #e0ffff;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+header nav a:hover,
+header nav a.active {
+  background: #00c2cb;
+  color: #42455a;
+  transition: 0.5s ease-out;
+  letter-spacing: 2px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
+body {
+  background: #42455a;
+}
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:nth-child(1) {
+  color: #e0ffff;
+}
+section:nth-child(2) {
+  color: #42455a;
+  background: #e0ffff;
+}
+section:nth-child(3) {
+  color: #e0ffff;
+}
+section:nth-child(4) {
+  color: #42455a;
+  background: #e0ffff;
+}
+section .container {
+  margin: 100px;
+}
+section h1 {
+  font-size: 3rem;
+  margin: 20px;
+}
+section h2 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+section .text-container {
+  display: flex;
+}
+section .text-container .text-box {
+  margin: 20px;
+  padding: 20px;
+  background: #00c2cb;
+}
+section .text-container .text-box h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+section .text-container .picture {
+  margin: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 900px) {
   section h1 {
-    font-size: 3rem;
-    margin: 20px;
-  }
-  section {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  section .text-container {
-    display: flex;
-  }
-  section .text-container .text-box {
-    margin: 20px;
-    padding: 20px;
-    background: #00c2cb;
-  }
-
-  
-  @keyframes fade-left {
-    0% {
-      transform: translateX(-100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes fade-right {
-    0% {
-      transform: translateX(100px);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  section .text-container {
-    display: flex;
-  }
-  section .text-container .text-box {
-    margin: 20px;
-    padding: 20px;
-    background: #00c2cb;
-  }
-  section .text-container .text-box h3 {
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 10px;
   }
-  
+  section .text-container {
+    flex-direction: column;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+  text-align: center;
+}
+section .welcome {
+  position: relative;
+  animation: fade-bottom 4s infinite;
+  text-align: center;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* Text in each section aligns left side
+Add color change if needed. 
+*/
+section .text1{
+  text-align: left;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+}
+/* Add a hover effect if you want */
+.fas:hover {
+  opacity: 1;
+}
+body {
+  background: #42455a;
+}
+/* Set a specific color for each brand */
+
+/* linkedin */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+}
+
+/* github */
+.fa-github {
+  background: #050505;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+}
+
+/* Email */
+.fa-envelope {
+  background: #949496;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+}
+.fa:active {
+  transform: translateY(3px);
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #555;
+}

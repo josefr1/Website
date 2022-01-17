@@ -1,7 +1,3 @@
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
