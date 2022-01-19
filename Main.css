@@ -96,6 +96,7 @@ section .text-container .picture {
   padding: 20px;
 }
 
+
 @media (max-width: 900px) {
   section h1 {
     font-size: 2rem;
@@ -168,6 +169,8 @@ Add color change if needed.
 */
 section .text1{
   text-align: left;
+  letter-spacing: 1.2px;
+  font-size: 18px;
 }
 /* Add a hover effect if you want */
 .fa:hover {
