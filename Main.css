@@ -293,11 +293,14 @@ section .text-container .text-box1 {
   background-color: #2196F3;
   border-radius: 25px;
 }
-.js {width: 60%; background-color: #f44336; border-radius: 25px;}
-.java {width: 80%; background-color: #2196F3; border-radius: 25px;}
+.js {width: 60%; background-color: #db9e1b; border-radius: 25px;}
+.java {width: 80%; background-color: #950fd3; border-radius: 25px;}
 .python {width: 75%; background-color: #f44336; border-radius: 25px;}
 .csharp {width: 65%; background-color: #808080; border-radius: 25px;}
 
+.colorCH {
+  color:#e0ffff
+}
 
 
 
