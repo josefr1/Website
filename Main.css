@@ -16,24 +16,25 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #f34a07;
+  background: #C44900;
   padding: 20px;
   text-align: center;
-  border-bottom: 1px solid #00c2cb;
+  border-bottom: 2px solid #415D43;
 }
+
 header nav a {
   padding: 10px 20px;
   font-size: 1.2rem;
-  color: #e0ffff;
+  color: #EBEBEB;
   border-radius: 5px;
   letter-spacing: 0.5px;
 }
 header nav a:hover,
 header nav a.active {
-  background: #00c2cb;
+  background: #70F8FF;
   color: #42455a;
   transition: 0.5s ease-out;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
 }
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 * {
@@ -43,26 +44,30 @@ header nav a.active {
   font-family: "Asap", sans-serif;
 }
 body {
-  background: #42455a;
+  background: #415D43;
+  color: #ee600d;
 }
+
 section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #415D43;
+  color: #EBEBEB;
 }
 section:nth-child(1) {
-  color: #e0ffff;
+  color: #415D43;
 }
 section:nth-child(2) {
-  color: #42455a;
+  color: #25c02f;
   background: #e0ffff;
 }
 section:nth-child(3) {
-  color: #e0ffff;
+  color: #25c02f;
 }
 section:nth-child(4) {
-  color: #42455a;
+  color: #25c02f;
   background: #e0ffff;
 }
 section .container {
@@ -79,6 +84,7 @@ section h2 {
 }
 section .text-container {
   display: flex;
+  
 }
 section .text-container .text-box {
   margin: 20px;
@@ -95,7 +101,7 @@ section .text-container .picture {
   margin: 20px;
   padding: 20px;
 }
-
+/* Media Queries */
 @media (max-width: 900px) {
   section h1 {
     font-size: 2rem;
@@ -105,6 +111,8 @@ section .text-container .picture {
     flex-direction: column;
   }
 }
+
+
 
 .reveal {
   position: relative;
@@ -177,8 +185,15 @@ section .text1{
 .fas:hover {
   opacity: 1;
 }
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button:hover {background-color: #3e8e41}
+
 body {
-  background: #42455a;
+  background: #415D43;
 }
 /* Set a specific color for each brand */
 
@@ -223,7 +238,7 @@ body {
 /* Resume PDF File */
 
 .footer .fa-file-alt {
-  background: #cc7708;
+  background: #CBC3E3;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -246,8 +261,23 @@ body {
   font-size: 30px;
   width: 100px;
 }
-/* Phone Number */
-
+/* Toggle light/dark mode button
+Blue Color: #00C2CB*/ 
+.dark-mode-button {
+  padding: 5px 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+  color: #EBEBEB;
+  background-color: #415D43;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px #00C2CB;
+}
+/*Dark Mode */
+.dark-mode, .navbar, .footer, .section {
+  color: black;
+}
 
 .fa:active {
   transform: translateY(3px);
@@ -256,9 +286,9 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: #EBEBEB;
   text-align: center;
-  background-color: #555;
+  background-color: #C44900;
 }
 .container1 * {
 box-sizing:border-box}
@@ -271,7 +301,7 @@ section .text-container .text-box1 {
 
 .container1 {
   width: 70%;
-  background-color: #ddd;
+  background-color: #EBEBEB;
   border-radius: 25px;
 
 }
@@ -284,22 +314,22 @@ section .text-container .text-box1 {
 }
 
 .html {
-  width: 70%; 
+  width: 75%; 
   background-color: #9faa04;
   border-radius: 25px;
 }
 .css {
-  width: 70%; 
+  width: 75%; 
   background-color: #2196F3;
   border-radius: 25px;
 }
 .js {width: 60%; background-color: #db9e1b; border-radius: 25px;}
 .java {width: 80%; background-color: #950fd3; border-radius: 25px;}
 .python {width: 75%; background-color: #f44336; border-radius: 25px;}
-.csharp {width: 65%; background-color: #808080; border-radius: 25px;}
+.csharp {width: 70%; background-color: #808080; border-radius: 25px;}
 
 .colorCH {
-  color:#e0ffff
+  color:#EBEBEB
 }
 
 

@@ -13,5 +13,9 @@ function reveal() {
     }
   }
 }
-
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
 window.addEventListener("scroll", reveal);
+
