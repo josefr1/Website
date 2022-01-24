@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+/* Media Queries */
+/* small devices(phones) */
+@media screen and (max-width: 425) {
+  section h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  header, header nav a {
+      display: hidden;
+  }
+  section .text-container {
+    flex-direction: column;
+  }
+  section .text-container .text-box1 {
+    margin: 20px;
+    padding: 20px;
+    width: 700px;
+    background: #00c2cb;
+  }
+}
+/* medium devices(tablets) */
+@media (min-width: 768px) {
+}
+
+/* large devices(laptops/desktops) */
+@media (min-width: 992px) {  
+    .body {
+    font-size: 1rem;
+    }
+}
