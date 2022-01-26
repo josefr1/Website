@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
 /* Media Queries */
 /* small devices(phones) */
-@media screen and (max-width: 425) {
+@media screen and (max-width: 576) {
   section h1 {
     font-size: 1rem;
     text-align: center;
@@ -19,6 +19,8 @@
     background: #00c2cb;
   }
 }
+
+
 /* medium devices(tablets) */
 @media (min-width: 768px) {
 }
