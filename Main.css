@@ -16,10 +16,10 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: #C44900;
+  background: #0B0C10;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #415D43;
+  border-bottom: 2px solid #70F8FF;
 }
 
 header nav a {
@@ -44,7 +44,7 @@ header nav a.active {
   font-family: "Asap", sans-serif;
 }
 body {
-  background: #415D43;
+  background: #0B0C10;
   color: #ee600d;
   width: 100%;
   float: 0%;
@@ -55,22 +55,25 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #415D43;
+  background: #0B0C10;
   color: #EBEBEB;
+  border-bottom: 2px solid #70F8FF;
+
 }
 section:nth-child(1) {
-  color: #415D43;
+  color: #0B0C10;
 }
 section:nth-child(2) {
-  color: #25c02f;
-  background: #e0ffff;
+  color: #70F8FF;
+  background: #0B0C10;
 }
 section:nth-child(3) {
   color: #25c02f;
 }
+/* This one deals with first slide(welcome)*/
 section:nth-child(4) {
-  color: #25c02f;
-  background: #e0ffff;
+  color: #70F8FF;
+  background: #0B0C10;
 }
 section .container {
   margin: 100px;
@@ -78,11 +81,13 @@ section .container {
 section h1 {
   font-size: 3rem;
   margin: 20px;
+  color: #70F8FF;
 }
 section h2 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
+  color: #70F8FF;
 }
 section .text-container {
   display: flex;
@@ -91,21 +96,20 @@ section .text-container {
 section .text-container .text-box {
   margin: 20px;
   padding: 20px;
-  background: #00c2cb;
+  background: #1F2833;
 }
 section .text-container .text-box h3 {
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #70F8FF;
+
 }
 section .text-container .picture {
   margin: 20px;
   padding: 20px;
 }
-
-
-
 
 .reveal {
   position: relative;
@@ -171,22 +175,24 @@ section .text1{
   text-align: left;
 }
 /* Add a hover effect if you want */
-.fa:hover {
+.footer .fa:hover {
   opacity: 1;
+  background-color: #70F8FF;
 }
 /* Add a hover effect if you want */
-.fas:hover {
+.footer .fas:hover {
   opacity: 1;
+  background-color: #70F8FF;
 }
-.button:active {
-  background-color: #3e8e41;
+.footer .button:active {
+  background-color: #EBEBEB;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #70F8FF}
 
 body {
-  background: #415D43;
+  background: #0B0C10;
 }
 /* Set a specific color for each brand */
 
@@ -205,7 +211,7 @@ body {
 
 /* github */
 .fa-github {
-  background: #050505;
+  background: #949496;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -218,7 +224,7 @@ body {
 
 /* Email */
 .fa-envelope {
-  background: #949496;
+  background: #f44336;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -228,7 +234,6 @@ body {
   font-size: 30px;
   width: 100px;
 }
-/* Resume PDF File */
 
 .footer .fa-file-alt {
   background: #CBC3E3;
@@ -241,6 +246,7 @@ body {
   font-size: 30px;
   width: 100px;
 }
+
 /* Phone Number */
 
 .fa-phone-alt {
@@ -281,15 +287,16 @@ Blue Color: #00C2CB*/
   width: 100%;
   color: #EBEBEB;
   text-align: center;
-  background-color: #C44900;
+  background-color: #0B0C10;
 }
+/* Changes Skills slide*/
 .container1 * {
 box-sizing:border-box}
 section .text-container .text-box1 {
   margin: 20px;
   padding: 20px;
   width: 700px;
-  background: #00c2cb;
+  background: #1F2833;
 }
 
 .container1 {
